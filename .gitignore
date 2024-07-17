@@ -1,0 +1,19 @@
+# Ignore JSON files
+*.json
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Ignore .DS_Store file
+.DS_Store
+
+# Ignore config.py file
+config.py
+
+# Python cache
+__pycache__/
+*.pyc
