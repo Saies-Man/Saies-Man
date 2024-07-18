@@ -1,6 +1,5 @@
 # Saies-Man AI Development
 2024-1학기 2024 박재홍 교수님 세미나에서 인공지능 언어 모델 기반 펀드 불완전 판매 진단 프로젝트 
-One Paragraph of project description goes here
 
 ## Getting Started
 
