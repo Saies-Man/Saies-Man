@@ -1,6 +1,3 @@
-# Ignore JSON files
-*.json
-
 # Ignore Visual Studio Code files
 .vscode/
 
