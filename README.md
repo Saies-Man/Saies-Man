@@ -6,13 +6,13 @@ Saies-Man은 펀드 상품 판매자에게 **상품 계약 과정에서 불완�
 > 
 > 보험이나 펀드와 같은 금융상품 및 서비스 구매를 권유하는 판매자가 구매자인 고객에게 구매에 있어서 필요하고도 충분한 정보를 제공하지 않으면서, 무리한 구매나 투자권유를 하여 보험 혹은 펀드를 판매하는 행위를 총칭하는 개념
 
-<img src="https://github.com/user-attachments/assets/bff11fdc-3c2e-48f4-913e-9fe04e0db5b0" width="900" height="300" />
+<img src="https://github.com/user-attachments/assets/bff11fdc-3c2e-48f4-913e-9fe04e0db5b0" width="900" height="350" />
 
 ## 진단 모델 플로우
 
 GEMINI와 BERT를 이용한 불완전 판매 유형 식별 과정
 
-<img src="https://github.com/user-attachments/assets/f203e99f-b749-43f8-974f-ed792536898d" width="900" height="300" />
+<img src="https://github.com/user-attachments/assets/f203e99f-b749-43f8-974f-ed792536898d" width="900" height="350" />
 
 ## 📢 주요 기능
 *(각 파트에 gif 추가)*
