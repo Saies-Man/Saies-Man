@@ -1,86 +1,67 @@
-# Saies-Man AI Development
-2024-1학기 2024 박재홍 교수님 세미나에서 인공지능 언어 모델 기반 펀드 불완전 판매 진단 프로젝트 
+# 👮‍♂️Saies-Man AI Development 
 
-## Getting Started
+Saies-Man은 펀드 상품 판매자에게 **상품 계약 과정에서 불완전판매 진단 서비스를 사용하여 불완전판매 발생 가능성 최소화**하는 서비스입니다.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+> 불완전판매란?
+> 
+> 보험이나 펀드와 같은 금융상품 및 서비스 구매를 권유하는 판매자가 구매자인 고객에게 구매에 있어서 필요하고도 충분한 정보를 제공하지 않으면서, 무리한 구매나 투자권유를 하여 보험 혹은 펀드를 판매하는 행위를 총칭하는 개념
 
-### Prerequisites
+<img src="https://github.com/user-attachments/assets/bff11fdc-3c2e-48f4-913e-9fe04e0db5b0" width="1200" height="450" />
 
-What things you need to install the software and how to install them
+## 진단 모델 플로우
 
-```
-Give examples
-```
+GEMINI와 BERT를 이용한 불완전 판매 유형 식별 과정
 
-### Installing
+<img src="https://github.com/user-attachments/assets/f203e99f-b749-43f8-974f-ed792536898d" width="1200" height="450" />
 
-A step by step series of examples that tell you how to get a development env running
+## 📢 주요 기능
+*(각 파트에 gif 추가)*
 
-Say what the step will be
+✅ 판매원 정보 입력
 
-```
-Give the example
-```
+✅ 고객 프로필 정보 입력
 
-And repeat
+✅상품 선택 및 상담 내용 업로드
 
-```
-until finished
-```
+✅ 진단 결과 예시
 
-End with an example of getting some data out of the system or using it for a little demo
+---
+## 📝 Description
 
-## Running the tests
+### Data Source
+*(수정 필요)*
 
-Explain how to run the automated tests for this system
+- 간이 투자계약서  
+  - 국민은행
+  - 키움증권
+ 
+- 상담 시나리오 
+  
 
-### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+### Prerequisite 
+*(수정 필요)*
 
 ```
-Give an example
+seaborn
+pandas
+scikit-learn
+
+pymysql
+mysqlclient
+sqlalchemy
+
+requests
+tensorflow
+wordcloud
+tqdm
+tokenizers
+sentencepiece
+focal_loss
 ```
 
-## Deployment
+### Usage
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+```
+$ streamlit run run.py
+```
