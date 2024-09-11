@@ -15,7 +15,6 @@ GEMINI와 BERT를 이용한 불완전 판매 유형 식별 과정
 <img src="https://github.com/user-attachments/assets/f203e99f-b749-43f8-974f-ed792536898d" width="900" height="350" />
 
 ## 📢 주요 기능
-*(각 파트에 gif 추가)*
 
 ✅ 판매원 정보 입력  
 
