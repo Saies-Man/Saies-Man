@@ -24,16 +24,16 @@ GEMINI와 BERT를 이용한 불완전 판매 유형 식별 과정
 
 ✅ 고객 프로필 정보 입력
 
-![2](https://github.com/user-attachments/assets/73aaf4a1-9c3d-4b44-b497-f800ced48b86)
+<img src="https://github.com/user-attachments/assets/73aaf4a1-9c3d-4b44-b497-f800ced48b86" width="900" height="350" />
 
 ✅상품 선택 및 상담 내용 업로드
 
-![3](https://github.com/user-attachments/assets/12ce7207-75fc-407e-ae07-9ed8e6d0d1c8)
+<img src="https://github.com/user-attachments/assets/12ce7207-75fc-407e-ae07-9ed8e6d0d1c8" width="900" height="350" />
 
 
 ✅ 진단 결과 예시
 
-![4](https://github.com/user-attachments/assets/a6db860b-9a58-4174-bfa5-1b73b5452e3c)
+<img src="https://github.com/user-attachments/assets/a6db860b-9a58-4174-bfa5-1b73b5452e3c" width="900" height="350" />
 
 
 
