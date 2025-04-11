@@ -40,7 +40,6 @@ GEMINI와 BERT를 이용한 불완전 판매 유형 식별 과정
 ## 📝 Description
 
 ### Data Source
-*(수정 필요)*
 
 - 간이 투자계약서  
   - 국민은행
@@ -51,24 +50,32 @@ GEMINI와 BERT를 이용한 불완전 판매 유형 식별 과정
 
 
 ### Prerequisite 
-*(수정 필요)*
+
 
 ```
-seaborn
-pandas
-scikit-learn
+# Data Analysis & Visualization
+pandas>=1.5.3
+seaborn>=0.12.2
+wordcloud==1.9.3
+tqdm>=4.66.1
 
-pymysql
-mysqlclient
-sqlalchemy
+# Machine Learning & Deep Learning
+scikit-learn>=1.3.2
+tensorflow==2.15.0
+focal_loss>=0.0.7
 
-requests
-tensorflow
-wordcloud
-tqdm
-tokenizers
-sentencepiece
-focal_loss
+# NLP & Tokenization
+tokenizers>=0.13.3
+sentencepiece==0.1.99
+
+# Database & ORM
+pymysql>=1.1.0
+mysqlclient==2.2.4
+sqlalchemy>=2.0.25
+
+# Utilities & Networking
+requests>=2.31.0
+
 ```
 
 ### Usage
